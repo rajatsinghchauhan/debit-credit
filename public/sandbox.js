@@ -9,7 +9,7 @@ inputs.forEach((input) => {
     console.log(input);
 });
 //writing a fuction
-// dia is any type
+// dia is any typeeeee
 const myfun = (dia) => {
     return dia * Math.PI;
 };

@@ -11,7 +11,7 @@ inputs.forEach((input) => {
 });
 
 //writing a fuction
-// dia is any type
+// dia is any typeeeee
 const myfun = (dia) => {
   return dia * Math.PI;
 };
