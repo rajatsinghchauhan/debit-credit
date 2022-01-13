@@ -12,7 +12,7 @@ inputs.forEach((input) => {
 
 //writing a fuction
 // dia is any typeeeee
-const myfun = (dia) => {
+const myfun = (dia: any) => {
   return dia * Math.PI;
 };
 
@@ -93,3 +93,42 @@ let age: any;
 age = 76;
 age = "76";
 console.log(age);
+
+let greet: Function;
+
+greet = () => {
+  console.log("this is your captain rajat");
+};
+
+const add = (a: number, b: number) => {
+  console.log(a + b);
+};
+add(9, 52);
+
+const ass = (a: number, b: number, c?: number, d: number = 10) => {
+  console.log(a + b + d);
+};
+ass(1, 3, 5, 7);
+
+type objwithname = {
+  name: string;
+  uid: number;
+};
+
+const newfunn = (newboy: objwithname) => {
+  console.log(newboy.name);
+};
+let hiiii = {
+  name: "rajat",
+  uid: 54,
+};
+
+newfunn(hiiii);
+
+// examples of function signature
+
+let calc: (a: number, b: number) => number;
+
+calc = (numbone: number, numtwo: number) => {
+  return numtwo + numbone;
+};

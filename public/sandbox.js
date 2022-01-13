@@ -65,3 +65,28 @@ let age;
 age = 76;
 age = "76";
 console.log(age);
+let greet;
+greet = () => {
+    console.log("this is your captain rajat");
+};
+const add = (a, b) => {
+    console.log(a + b);
+};
+add(9, 52);
+const ass = (a, b, c, d = 10) => {
+    console.log(a + b + d);
+};
+ass(1, 3, 5, 7);
+const newfunn = (newboy) => {
+    console.log(newboy.name);
+};
+let hiiii = {
+    name: "rajat",
+    uid: 54,
+};
+newfunn(hiiii);
+// examples of function signature
+let calc;
+calc = (numbone, numtwo) => {
+    return numtwo + numbone;
+};
